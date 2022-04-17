@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link rel="preconnect" href="https://fonts.gstatic.com - кроссоригин>
-    +Sans:wght@400;500;700&display=swap" rel="таблица стилей">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
     <title>Denim</title>
 </head>
@@ -28,23 +26,127 @@
       </ul>
       <a class="main-header-logo" href="index.html">
           
-          <img src="img/logo.svg" width="73" height="19" alt="Логотип">
+          <img src="img/logo.svg" width="73" height="19" alt="Logo">
       </a>
       <ul class="user-navigation">
           <li class="user-navigation-item">
               <a class="link-item" href="#">
-                  <img src="img/search.svg"  width="20" height="20" alt="Поиск" >
+                  <img src="img/search.svg"  width="20" height="20" alt="Search" >
             </a>
             </li>
           <li class="user-navigation-item">
               <a class="link-item" href="#">
-                  <img src="img/cart.svg"  width="22" height="20" alt="Корзина">
+                  <img src="img/cart.svg"  width="22" height="20" alt="Cart">
                 </a>
          </li>
       </ul>
    </nav>     
 </header> 
-  <main></main> 
+  <main>
+      <h1 class="visually-hidden"> Denim Clothing & Outfits </h1>
+      <section class="promo">
+          <div class="container promo-wrapper">
+              <div class="promo-left-column">
+                  <div>
+                    <h2 class="promo-title">The quality you deserve</h2>
+                    <p class="promo-text">Denim</p>
+                    <a class="button"  href="#">Check new collection</a>
+                  </div>
+                    <a class="button-next"  href="#"  aria-label="Go to next block">
+                        <img src="img/arrow-down.svg" width="17px" height="29px" alt="arrow down" >
+                    </a>
+              </div>
+              <div class="promo-right-column">
+                   <img src="img/matheus.png" width="430" height="517" alt="promo image">
+              </div>
+         </div>
+      </section>
+      <section class="bestsellers container">
+          <header class="section-header">
+          <h2 class="section-title">Bestsellers</h2>
+          <a class="show-more" href="#">View all</a>
+        </header>
+        <ul class="catalog-list">
+            <li class="catalog-item">
+                <a  class="catalog-item-link" href="#">
+                    <h3 class="catalog-item-title">Jacket</h3>
+                    <img src="img/jacket-120.png" width="270" height="349" alt="Jacket $120">
+                    <p class="catalog-item-price">$120</p>
+                </a>
+            </li>
+            <li class="catalog-item">
+                <a  class="catalog-item-link" href="#">
+                    <h3 class="catalog-item-title">Overalls</h3>
+                    <img src="img/overalls-140.png" width="270" height="349" alt="Overalls $140">
+                    <p class="catalog-item-price">$140</p>
+                </a>
+            </li>
+            <li class="catalog-item">
+                <a  class="catalog-item-link" href="#">
+                    <h3 class="catalog-item-title">Jacket</h3>
+                    <img src="img/jacket-90.png" width="270" height="349" alt="Jacket $90">
+                    <p class="catalog-item-price">$90</p>
+                </a>
+            </li>
+            <li class="catalog-item">
+                <a class="catalog-item-link" href="#" >
+                    <h3 class="catalog-item-title">Overalls</h3>
+                    <img src="img/overalls-160.png" width="270" height="349" alt="Overalls $160">
+                    <p class="catalog-item-price">$160</p>
+                </a>
+            </li>
+        </ul>
+      </section>
+      <section class="news container">
+          <header class="section-header">
+          <h2 class="section-title">News</h2>
+          <a class="show-more" href="#">View all</a>
+        </header>
+        <div class="news-wrapper">
+         <div class="news-text-column">
+          <h3 class="news-title">G- Star Updates Its Sustainable Collection</h3>
+          <time class="news-time" datetime="2020-02-12">Feb 12, 2020</time>
+          <p class="news-text">G-Star Raw is pushing the sustainability movement forward with a collection of stretch denim items for spring 2020 which is particularly designed for reuse...</p>
+          <a class="button read-more"  href="#">Read more...</a>
+        </div>
+        <div class="news-img-column">
+           <img src="img/news.png" width="700" height="370" alt="Collection stretch denim items for spring 2020">
+        </div>
+    </div>
+      </section>
+      <section class="categories container">
+          <header class="section-header">
+        <h2 class="section-title">Shop by category</h2>
+        <a class="show-more" href="#">View all</a>
+         </header>
+      <ul class="catalog-list">
+          <li class="catalog-item">
+              <a  class="catalog-item-link" href="#">
+                  <h3 class="catalog-item-title">Jeans</h3>
+                  <img src="img/jeans.png" width="270" height="349" alt="Jeans">
+              </a>
+          </li>
+          <li class="catalog-item">
+              <a  class="catalog-item-link" href="#">
+                  <h3 class="catalog-item-title">Shirt</h3>
+                  <img src="img/shirts.png" width="270" height="349" alt="shirts">
+              </a>
+          </li>
+          <li class="catalog-item">
+              <a  class="catalog-item-link" href="#">
+                  <h3 class="catalog-item-title">Jackets</h3>
+                  <img src="img/jackets.png" width="270" height="349" alt="Jackets">
+              </a>
+          </li>
+          <li class="catalog-item">
+              <a class="catalog-item-link" href="#" >
+                  <h3 class="catalog-item-title">Overalls</h3>
+                  <img src="img/overalls.png" width="270" height="349" alt="Overalls">
+              </a>
+          </li>
+      </ul>
+      </section>
+  </main> 
   <footer></footer> 
 </body>
 </html>
