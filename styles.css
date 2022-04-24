@@ -268,3 +268,45 @@ a {
     position: relative;
    width: 700;
 }
+
+.main-footer {
+    padding: 50px 0 ;
+    background-color:#151C22;
+}
+
+.main-footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-footer-logo > svg > path {
+   fill: #ffffff;
+}
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 35px;
+    row-gap: 10px;
+    width: 500px;
+    margin: 35px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.footer-navigation-link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 37px;
+    row-gap: 10px;
+    margin: 37px 0 0;
+    padding: 0;
+    list-style: none;
+}
